@@ -1,0 +1,166 @@
+body {
+    background-color: #F8F8F8;
+}
+.knopka2 {
+    padding: 8px !important;
+}
+
+.knopka1 {
+    background-color: #106853 !important;
+    padding: 3px !important;
+}
+
+
+/* --------------------Sebet Pages------------------------ */
+.title-list li {
+    font-size: 19px;
+}
+
+.owl-item {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    height: 5px !important;
+}
+
+/* Add Item Block  */
+
+.product-block {
+    width: 100%;
+    height:max-content;
+    box-shadow: 0 0 10px rgb(196, 196, 196);
+    background-color: #fff;
+}
+
+.add-img {
+    width: 100px;
+    height: fit-content !important;
+}
+.for-p{
+    padding-left: 20px;
+}
+
+.decrement,
+.increment {
+    border: none;
+    background-color: #fc8410;
+    color: #fff;
+    width: 30px !important;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 3px;
+}
+
+.input-box {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-group {
+    height: 30px;
+}
+
+/* .btn-group-lg>.btn,
+.btn-lg {
+    padding: 0 !important;
+    font-size: 16px !important;
+    border-radius: 0.3rem;
+} */
+
+
+.product-block h6 {
+    font-size: 26px !important;
+}
+
+.knopka {
+    padding: 7px !important;
+    font-size: 16px !important;
+    border-radius: 0.3rem;
+}
+/* .btn-group-lg>.btn,
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+} */
+.color-button {
+    white-space: nowrap;
+    font-size: 14px !important;
+    transition: .4s ease;
+    padding:4px !important;
+    background-color: #fc8410;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    border-color: none !important;
+    width: 83% !important;
+}
+
+.btn-group a {
+    text-decoration: none;
+}
+
+.color-button:hover {
+    background-color: #106853 !important;
+    transition: .4s ease;
+}
+.box{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(196, 196, 196);
+    padding: 15px;
+}
+
+.for-p h6{
+    display: none;
+    text-align: center;
+}
+.btn-secondary {
+    background-color: #fc8410;
+    border: none;
+}
+.delete-img{
+    width: 35px;
+    filter: invert(14%) sepia(99%) saturate(5204%) hue-rotate(359deg) brightness(76%) contrast(114%);
+}
+.delete-item{
+    padding: 5px !important;
+}
+.delete-item:hover{
+    transform: scale(1.1);
+    animation: delete  .9s ease-in-out infinite;
+}
+
+@keyframes delete {
+
+    0%,
+    100% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+}
+.yenis-secondary {
+    width: 25% ;
+    padding: 4px ;
+    background-color: #fc8410 ;
+    border-radius: 4px;
+    color: #F8F8F8;
+    font-weight: 500;
+}
+.yenis-secondary a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cardddd{
+    width: 267px !important;
+    margin-right: 1%;
+    max-width: 267px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Add Item Block  */

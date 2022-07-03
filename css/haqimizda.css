@@ -1,0 +1,26 @@
+.about-title{
+    position: relative;
+    background-image: url(/img/pattern/leaf-title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.about-title a{
+    color: #000;
+    text-decoration: none;
+}
+.about-title a:hover{
+    color: #fc8410;
+    transition: .3s ease;
+}
+.about-title .weights{
+    font-weight: 500;
+}
+.ol, ul {
+    padding-left: 0rem !important;
+}
+.about p {
+    margin: 0 !important;
+    font-size: 18px !important;
+}

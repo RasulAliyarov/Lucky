@@ -1,0 +1,151 @@
+.about-title {
+    position: relative;
+    background-image: url(/img/pattern/leaf-title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-title a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.about-title a:hover {
+    color: #fc8410;
+    transition: .3s ease;
+}
+
+.about-title .weights {
+    font-weight: 500;
+}
+
+/* Order */
+
+.knopki1 {
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    background-color: #531a1a;
+}
+
+.knopki2 {
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    background-color: #F8F8F8;
+}
+
+.knopki2 a {
+    color: #000 !important;
+}
+
+.knopki2:hover a {
+    color: #fff !important;
+}
+
+.knopki1 a,
+.knopki2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.knopki1,
+.knopki2:hover {
+    background-color: #106853;
+}
+
+/* Dropdown */
+.table-container {
+    padding: 0 20px !important;
+}
+
+.drd-row {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(212, 212, 212);
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.drd-box {
+    margin-top: 3%;
+}
+
+.drd-box span {
+    width: 120px !important;
+}
+
+.dropdown {
+    width: 50%;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+/* Dropdown */
+.info-order {
+    margin-top: 3%;
+}
+
+table {
+    border: none;
+}
+
+table th {
+    border-right: 1px solid rgb(204, 203, 203);
+}
+
+table th {
+    background-color: #F8F8F8;
+    padding: 20px;
+
+}
+
+table td {
+    padding: 15px;
+}
+
+.order-img {
+    width: 100px;
+}
+
+.status,
+.status h6 {
+    background-color: #106853;
+    border-radius: 10px;
+    color: #fff;
+    width: 80%;
+    font-size: 12px !important;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2px;
+
+}
+
+.else-order {
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 80%;
+    margin: 14% !important;
+}
+
+td a {
+    text-decoration: none;
+    color: #000;
+}
+
+td a:hover .else-order {
+    transform: scale(1.1);
+    border-color: #fc8410;
+    color: #fc8410;
+}
+
+.info-order {
+    overflow-x: scroll;
+}
+
+.info-order::-webkit-scrollbar {
+    height: 3px;
+}
+

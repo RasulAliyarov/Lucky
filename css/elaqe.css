@@ -1,0 +1,116 @@
+.about-title {
+    position: relative;
+    background-image: url(/img/pattern/leaf-title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-title a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.about-title a:hover {
+    color: #fc8410;
+    transition: .3s ease;
+}
+
+.about-title .weights {
+    font-weight: 500;
+}
+
+/* Contact */
+.contact {
+    padding: 5% 0 0 0 !important;
+}
+
+.contact-box {
+    width: 360px;
+    height: 140px;
+    box-shadow: 0 0 5px rgb(202, 200, 200);
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-img {
+    height: 40px;
+}
+
+.contact-title {
+    text-decoration: none;
+    color: #000;
+    margin-top: 7% !important;
+    text-align: center;
+    font-size: 18px;
+    transition: .3s ease;
+}
+
+.contact-title:hover {
+    color: #fc8410;
+    transition: .3s ease;
+}
+
+.contact-box:hover .contact-img {
+    animation: contact-img .9s ease-in-out infinite;
+}
+
+@keyframes contact-img {
+
+    0%,
+    100% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+}
+
+/* -------------------------------- */
+.inp-box {
+    padding: 15px;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.comment {
+    border-radius: 4px;
+}
+
+.inp-box:hover,
+.comment:hover {
+    border: 1px solid #fc8410;
+}
+
+.comment {
+    padding: 15px 0 0 15px;
+}
+
+.btn-contact {
+    background-color: #106853;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s ease;
+
+}
+
+.btn-contact:hover {
+    background-color: #fc8410;
+    transition: .5s ease;
+
+}
+
+.contact-form ::placeholder {
+    z-index: 999;
+    color: #000 !important;
+}
+
+.map {
+    padding: 0 10px;
+}
+
+/* Contact */
